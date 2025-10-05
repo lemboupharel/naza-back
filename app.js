@@ -1,5 +1,6 @@
 // server.js
 import express from "express";
+import cors from "cors";
 import axios from "axios";
 import fs from "fs-extra";
 import path from "path";
@@ -8,6 +9,7 @@ import GIFEncoder from "gifencoder";
 import ffmpeg from "fluent-ffmpeg";
 
 const app = express();
+app.use(cors());
 app.use(express.json());
 
 // Temporary directories

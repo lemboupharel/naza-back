@@ -1,5 +1,5 @@
 ### test
-POST http://127.0.0.1/generate-video
+POST http://127.0.0.1:3000/generate-video
 Content-Type: application/json
 
 {
