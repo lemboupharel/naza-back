@@ -1,0 +1,9 @@
+### test
+POST http://127.0.0.1/generate-video
+Content-Type: application/json
+
+{
+  "lat": 4.5,
+  "lon": 12.5,
+  "years": [2023, 2024, 2025]
+}
